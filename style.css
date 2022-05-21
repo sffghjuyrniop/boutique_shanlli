@@ -1,0 +1,96 @@
+*{
+	margin-top: 8px ;padding: 0;
+	box-sizing: border-box;
+	font-family: gudea;
+}
+body{
+	
+	display: grid;
+	place-items: center;
+}
+.cardcontainer{
+	width: 450px;
+	height: 810px;
+	background: #000000;
+	border-radius: 25px;
+	display: flex;
+	justify-content: 
+		center;
+	align-items: center;
+	flex-direction: column;
+	border: 5px #ffff00 solid;
+	}
+header{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	}
+.profile{
+	background-image: url("picture.jpeg");
+	width: 290px;
+	height: 290px;
+	border-radius: 50%;
+	background-size: cover;
+	border: 5px solid #ffff00;	
+	margin-top: 0px;
+}
+.name{
+	color: #ffff00;
+	font-weight: bold;
+	font-size: 40px;
+	margin-top: 20px;
+	}
+.bio{
+     color:#ffff00;
+	margin-top: 7px;
+	font-weight: bold;
+	font-size: 20px;
+}	
+section{
+	    display: grid;
+	grid-template-columns: repeat(3,3fr);
+	    grid-gap: 40px;
+	    margin: 0 20px;
+}	
+.cardItem{
+	     display: flex;
+	     flex-direction: column;
+	     align-items: center;
+}	
+.cardItem .value{
+	            font-weight: bold; font-size: 30px;
+	            color:  #ffff00; padding: 5px;
+}	
+.cardItem .title{
+	            font-size: 18px;
+	            color: #ffff00;
+	letter-spacing: 1px;
+	font-weight: 900;
+}
+.follow{
+	   width: 350px; height: 50px;
+	   border: none; outline: none;
+	   border-radius: 15px;
+	   cursor: pointer;
+	   background-color: #ffff00;
+	   color: #000000;
+ 	   font-weight: 900;
+	   font-size: 22px;
+	   
+}
+
+.more{
+	  display: grid;
+	  grid-template-columns: repeat(3,3fr);
+	  grid-gap: 80px;
+	  margin: 40px 0 0;
+}
+.more i{
+	   font-size: 50px;
+	   color:black;
+	   cursor: pointer;
+		
+}
+
+
